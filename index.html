@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Amey Manekar</title>
+    <link rel="shortcut icon" href="images/q.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+
+
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 { background-color: #FF6766; }
+.box-2 { background-color: #3C3C3C; }
+.box-3 { background-color: #66A182; }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+/* 
+*/
+.btn-two {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; 
+}
+.btn-two span {
+  z-index: 2; 
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+}
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255,255,255,0);
+}
+
+
+/* 
+
+</style>
+
+<body>
+
+    <section class="main-banner" id="home">
+        
+        
+        <div class="container">
+        <center>
+            <div class="baner-info-w3ls text-center">
+            <div class="team-img mb-4">
+                                <img src="images/amu.jpg"  class="img-fluid rounded-circle" alt="user-image" width="300" height="300">
+                            </div>
+                <h1><a href="index.html">Amey Manekar</a></h1>
+                <br>
+              <h4  style="color:white; font-family:courier;"> I enjoy solving problems,I aspire to
+build optimal solutions.I like to build products and learn new tools and
+technologies.</h4>
+                 <div class="banner-high-lights text-left">
+                    
+                </div>
+            </div>
+        </div>
+        </center>
+    </section>
+    <!-- what we do -->
+    <section class="wedo py-lg-5 py-5" id="about">
+        <div class="container py-lg-5">
+            <div class="text-center">
+            
+                <h3 class="tittle_head"> My Skills </h3>
+                <p class="main_p mt-4 mb-4 pt-2 text-center mx-auto">   </p>
+            </div>
+            <div class="wedo_top text-center py-5">
+             
+              <ul>
+                    <li>
+                    <span class="fa fa-html5"></span>  <h3 class="tittle_head">Front-End  </h3>
+                     <p class="main_p mt-4 mb-4 pt-2  mx-auto"> Html <br> css <br> javascript <br> AJAX <br> jquery <br>  <br>   <br>  <br>  </p></li>
+                     
+                      
+                   <li>  
+                  <span class="fa fa-server"></span>  <h3 class="tittle_head"> Back-End </h3>
+                    <p class="main_p mt-4 mb-4 pt-2  mx-auto">  Java<br> Python<br> Spring-hibernate<br> Spring boot<br> Django<br> Flask <br> SQL<br> MongoDB </p> </li>
+                  <li>
+                   <span class="fa fa-terminal"></span> <h3 class="tittle_head"> Tools  </h3>
+                     <p class="main_p mt-4 mb-4 pt-2 text-center mx-auto"> Github <br> Maven <br>  <br>   <br>  <br> <br>   <br>  <br>   </p></li>                                                                              </p></li>
+                    
+                    </ul>
+            
+               
+            </div>
+        </div>
+    </section>
+    <!-- //what we do -->
+  
+   
+    <!-- //services -->
+    <!--//team -->
+  
+    <!--//team -->
+    <!-- Gallery -->
+    <section class="gallery py-5" id="gallery">
+        <div class="container">
+            <div class="inner-sec-wthree py-lg-5 py-3">
+                <div class="text-center">
+                    <h2 class="tittle_head">My Project's </h2>
+                       </div>
+                <div class="row news-grids mt-lg-5 mt-4 text-center">
+                    <div class="col-md-4 gal-img">
+                    <h5 class="tittle_head">E-Publication System </h5>
+                        <a href="#gal1"><img src="images/g1.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                    <h5 class="tittle_head">Goods-Transport System</h5>
+                        <a href="#gal2"><img src="images/g2.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">News paper System</h5>
+                        <a href="#gal3"><img src="images/g3.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Covid-19 Tracker</h5>
+                        <a href="#gal4"><img src="images/g4.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Leave Management System</h5>
+                        <a href="#gal5"><img src="images/g5.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Social-Network</h5>
+                        <a href="#gal6"><img src="images/g6.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Training And Placement System</h5>
+                        <a href="#gal7"><img src="images/g7.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Examination System</h5>
+                        <a href="#gal8"><img src="images/g8.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 gal-img">
+                     <h5 class="tittle_head">Student Administration System  </h5>
+                        <a href="#gal9"><img src="images/g9.jpg" alt="gallery img" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- popup-->
+            <div id="gal1" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">Online Ebook Publishing This website allows users to register as authors and publish ebooks. These books can be read by other users by downloading chapters of these books. An author can add titles, chapters to a title. Anonymous users (unregistered) can search, download .</p>
+                   
+                   
+                   <a  href="https://github.com/ameymanekar/E-Publication-System" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+						
+						
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+
+            <!-- popup-->
+            <div id="gal2" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g2.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">The main objective of the GOODS TRANSPORT is to display the available transport option in particular location is to manages the details of goods transport vehicle and booking details it is shows the available goods carrier for the particular location and provides the details of it. The list of goods carrier are shows according to the search of the client or a person who want to book a goods transport carrier for the particular work or the event or specified operation. We are including the two main domain the first is the client registration and the another is goods transport vehicle registration for registration and adding the details for particular vehicle.</p>
+                    
+                    <a  href="https://github.com/ameymanekar/Goods-transport" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                    
+                    
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal3" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g3.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">This application can be of great help to the people at the newspaper agency and the distributors with great ease. The modules included on this application are as follows: It allows user to do the following:
+
+• Login:
+
+• Customer master: 
+
+• Product master: 
+
+• Bill generation: </p>
+                    
+                    
+                    <a  href="https://github.com/ameymanekar/News-paper-system" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                    
+                    
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup3 -->
+            <!-- popup-->
+            <div id="gal4" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g4.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4"> it's an simple tracker we can see online data of covid-19 only maharashtra.i use covid API to get data using python flask framework. </p>
+                   
+                   
+                   <a  href="https://github.com/ameymanekar/ameyaa" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                   
+                   
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal5" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g5.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">leave application system will allow you to take leave from college . the system is made for college staffs. staffs can submit the request of leave and higher authorities will take decision to give leave or not it they granted the leave then they will get mail of there leave and teachers and higher authorities have seprate login they can change passwords and user profile. the project contain 8 modules its built in java J2EE and backend DB in Mysql</p>
+                    
+                     <a  href="https://github.com/ameymanekar/Leave-management-system" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                    
+                    
+                    
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal6" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">social network website will allow user to create user profile change password ,forgot password,change profile photo,add friends,remove friends,user to user message and forgot password will send user password on mail via validating the user. website built in python flask framework front-end html css javascript and DB in Mysql.</p>
+                   
+                   
+                   <a  href="https://github.com/ameymanekar/Social-Network" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                   
+                   
+                   
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal7" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g7.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">This project is aimed at developing an online application for the Training and Placement Dept. of the college. The system is an online application that can be accessed throughout the organization and outside as well with proper login provided. This system can be used as an application for the TPO of the college to manage the student information with regards to placement. Students logging should be able to upload their information in the form of a CV. Visitors/Company representatives logging in may also access/search any information put up by Students</p>
+                   
+                   
+                   <a  href="https://github.com/ameymanekar/Placement-management-system" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                   
+                   
+                    <a class="close" href="#">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal8" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g8.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">Online Examination System project could be a web portal which is developed or implemented in java domain or platform. In current generation lots of the examinations like GRE, CAT, and MAT…etc is conducted through online system. This project will help students to get practiced to online examination method by taking mock tests from this web portal.</p>
+                   
+                   
+                    <a  href="https://github.com/ameymanekar/Exam-System" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                   
+                   
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+            <!-- popup-->
+            <div id="gal9" class="pop-overlay animate">
+                <div class="popup">
+                    <img src="images/g9.jpg" alt="Popup Image" class="img-fluid" />
+                    <p class="mt-4">Student Administration System deals with all kind of student details,course details. This project (Student Administration System) has been developed on Java, JSP and MySQL. It manages the information about the students such as (Student Fees, Student course, Student Profile etc). The admin users have full control over the system. We have used JSP for frontend logic implementation, Java for business logic, MySQL as a database, HTML for structure designing, CSS for web page formatting.</p>
+                   
+                   
+                    <a  href="https://github.com/ameymanekar/Student-Administration-System" style="color:white;" target="_blank"> <div class="box-2">
+  					<div class="btn btn-two">
+   					 <span>View Project</a></span>
+  						</div>
+						</div></a>
+                   
+                   
+                   
+                    <a class="close" href="#gallery">&times;</a>
+                </div>
+            </div>
+            <!-- //popup -->
+        </div>
+    </section>
+    
+      <section class="team-main-sec py-lg-5 py-4" id="team">
+        <div class="container">
+            <div class="inner-sec-wthree py-lg-5 py-4 speak">
+                <div class="text-center">
+                    <h3 class="tittle_head">About Myself</h3>
+                    
+                </div>
+                <center>
+                    <div class="col-md-4 team-gd-info text-center">
+                        <div class="team-gd">
+                            <div class="team-img mb-4">
+                                <img src="images/team1.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            </div>
+                            <div class="team-info">
+                                <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Developerr</span>Amey Manekar</h3>
+                                <p>Passionate about knowledge , Good at self learning</p>
+                                <ul class="team_social_info mt-md-4 mt-3">
+                                    <li class="mb-2 google"><a href="mailto:ameymanekar12@gmail.com" target="_blank"><i class="fa fa-envelope mr-1"></i>Google</a></li>
+                                    <li class="mb-2 linkedin"><a href="https://www.linkedin.com/in/amey-manekar-719624147/" target="_blank"><i class="fa fa-linkedin mr-1"></i>Linkedin</a></li>
+                                    <li class="mb-2 linkedin"><a href="https://github.com/ameymanekar" target="_blank"><i class="fa fa-github mr-1"></i>GitHub</a></li>
+                                    <li class="mb-2 google"><a href="https://drive.google.com/file/d/1_nvFg3qFwLPngc1mRW-1ssL4NI-S8hrh/view?usp=sharing" target="_blank"><i class="fa fa-file mr-1"></i>My Resume</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <center>
+
+
+            </div>
+        </div>
+    </section>
+    
+    
+    
+   
+   
+
+</body>
+
+</html>
